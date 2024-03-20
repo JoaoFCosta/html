@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>João Rodolfo</title>
+
+    <style editable>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #add8e6;
+        color: #2b2b2b;
+      }
+
+      .container {
+        background: #26e6ac;
+        width: 400px;
+        height: 500px;
+        border-radius: 26px;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 2em;
+      }
+
+      h2 {
+        text-align: center;
+        font-size: 1.3em;
+      }
+
+      .btn {
+        text-align: center;
+      }
+
+      button {
+        border-radius: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Aula 01 HTML | CSS | JS</h1>
+      <h2>Alerta de mensagem</h2>
+      <div class="btn">
+        <button onclick="alerta()">ALERTA</button>
+      </div>
+      <h2>Altere a cor do fundo do site clicando em uma das cores abaixo</h2>
+      <div class="btn">
+        <button onclick="padrao()">PADRÃO</button>
+        <button onclick="vermelho()">VERMELHO</button>
+        <button onclick="verde()">VERDE</button>
+        <button onclick="azul()">AZUL</button>
+      </div>
+    </div>
+
+    <script>
+      console.log("Ola Mundo");
+      //   document.getElementsByTagName("body")[0].style.background = "#2b2b2b"
+
+      function alerta() {
+        var nome = prompt("Olá, informe seu nome");
+        alert(`Olá, ${nome}`);
+      }
+
+      function vermelho() {
+        document.getElementsByTagName("body")[0].style.background = "#f00";
+      }
+      function verde() {
+        document.getElementsByTagName("body")[0].style.background = "#0f0";
+      }
+      function azul() {
+        document.getElementsByTagName("body")[0].style.background = "#00f";
+      }
+      function padrao() {
+        document.getElementsByTagName("body")[0].style.background = "#add8e6";
+      }
+    </script>
+  </body>
+</html>
