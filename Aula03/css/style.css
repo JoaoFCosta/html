@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-url: url(../img/desktopDark.jpg);
+}
+
+body {
+  background: var(--bg-url) no-repeat top center / cover;
+}
