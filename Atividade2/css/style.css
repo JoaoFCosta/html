@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#header {
+  font-size: 18px;
+  margin: 0px 0px 20px;
+  padding: 25px;
+  background: #2e3235;
+  color: #fff;
+  text-align: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#topHeader {
+  margin: 20px 0px;
+  font-size: 24px;
+  font-weight: 900;
+  text-align: center;
+}
+
+#risco {
+  margin: 15px auto 26px;
+  height: 3.5px;
+  width: 60px;
+  background: #e91e63;
+  border-radius: 5px;
+}
+
+#membro {
+  text-align: center;
+  font-size: 12px;
+}
+
+#membro a {
+  color: #000;
+  text-decoration: none;
+}
+
+#formBox {
+  background: #d9d9d9;
+}
+
+#nomeInput {
+  margin: 30px 0px;
+}
+
+#nomeInput input {
+  margin: 26px;
+  padding: 10px;
+  width: 200px;
+  height: 40px;
+  border: 0;
+  outline: 0;
+}
+
+#nomeInput label {
+  position: absolute;
+  transform: translateX(-14em);
+}
+
+#emailInput {
+  margin: 30px 0px;
+}
+
+#emailInput input {
+  margin: 25px;
+  padding: 10px;
+  width: 450px;
+  height: 40px;
+  border: 0;
+  outline: 0;
+}
+
+#emailInput label {
+  position: absolute;
+  transform: translateX(-29.4em);
+}
+
+#btnSubmit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+#btnSubmit button {
+  width: 200px;
+  height: 50px;
+  background: #e91e63;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border: 0;
+  cursor: pointer;
+}
+
+#footer {
+  margin: 60px 0px 0px;
+  padding: 20px;
+  background: #d9d9d9;
+}
+
+#redeSocial {
+  display: flex;
+  justify-content: left;
+  gap: 16px;
+  font-size: 50px;
+}
+
+#redeSocial a {
+  text-decoration: none;
+  color: #e91e63;
+}
+
+#TP a {
+  margin: 0px 0px 0px 50px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  color: #000;
+}
+
+#footer p {
+  font-size: 18px;
+  font-weight: 900;
+  margin: 20px 0px 0px 50px;
+}
+
+#idioma {
+  padding: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+  background: #fff;
+  transform: translateY(-10px);
+}

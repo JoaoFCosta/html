@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="header">ONEPIRATE</div>
+    <div id="container">
+      <div id="formBox">
+        <div id="topHeader">
+          <h3>SIGN UP</h3>
+        </div>
+
+        <div id="risco"></div>
+
+        <div id="membro">Já é um membro Onepirate? <a href="">Entre</a></div>
+
+        <div id="nomeInput">
+          <input type="text" id="nomeLog" required />
+          <label for="nomeLog">Nome</label>
+          <input type="text" id="sobrenomeLog" required />
+          <label for="sobrenomeLog">Sobrenome</label>
+        </div>
+
+        <div id="emailInput">
+          <input type="text" id="emailLog" required />
+          <label for="emailLog">Email *</label>
+          <br />
+          <input type="password" id="passLog" required />
+          <label for="passLog">Senha *</label>
+        </div>
+
+        <div id="btnSubmit">
+          <button onclick="signUpComplete()">SIGN UP</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div id="redeSocial">
+        <ul>
+          <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+        </ul>
+        <ul id="TP">
+          <a>Termos</a>
+          <a>Privacidade</a>
+        </ul>
+
+        <p>Idioma</p>
+        <p id="idioma">Português</p>
+      </div>
+    </div>
+  </body>
+</html>
